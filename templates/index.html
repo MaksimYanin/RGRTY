@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello, Mars</title>
+</head>
+<body>
+<h1>Фото были сделаны {{photos[0]['earth_date']}} </h1>>
+{% for i in photos %}
+<img src="{{ i['img_src'] }}">
+{% endfor %}
+</body>
+</html>
